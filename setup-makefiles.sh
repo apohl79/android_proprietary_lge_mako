@@ -2,6 +2,7 @@
 
 VENDOR=lge
 DEVICE=mako
+OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=./$DEVICE-vendor-blobs.mk
 
 (cat << EOF) > $MAKEFILE
